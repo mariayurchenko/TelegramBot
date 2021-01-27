@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Json.Schema.ToDotNet" Version="0.31.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Telegram.Bot">
+      <HintPath>..\..\..\..\..\.nuget\packages\telegram.bot\10.4.0\lib\netstandard1.1\Telegram.Bot.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
